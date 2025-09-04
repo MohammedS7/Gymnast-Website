@@ -387,6 +387,11 @@ header::before {
     cursor: pointer;
     transition: var(--main-transition);
 }
+@media(max-width: 767px) {
+    .navbar .navbar-content .logo {
+        font-size: 40px;
+    }
+}
 @media(min-width: 992px) {
     .navbar .navbar-content .nav-links {
         display: flex;
@@ -413,7 +418,7 @@ header::before {
 }
 @media(max-width: 767px) {
     .navbar .navbar-content .nav-links {
-        height: 45vh;
+        height: 55vh;
     }
 }
 .navbar .navbar-content .nav-links.show-nav {
@@ -505,6 +510,11 @@ header::before {
     color: #fff;
     font-size: 75px;
     transition: var(--main-transition);
+}
+@media(max-width: 767px) {
+    .landing-page h2 {
+        font-size: 65px;
+    }
 }
 /* End Landing Page */
 
